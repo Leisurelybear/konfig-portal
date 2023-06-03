@@ -1,0 +1,25 @@
+.my-link {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: #eee;
+    margin-bottom: 5px;
+}
+
+.my-link--active {
+    background-color: #002e64;
+    color: white;
+}
+
+.my-link:hover,
+.my-link:focus {
+    background-color: #025ab2;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.my-link:active {
+    background-color: #002e64;
+    color: white;
+}

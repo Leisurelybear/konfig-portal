@@ -1,0 +1,50 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #305688;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+label,
+input {
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    margin-left: 10px;
+}
+
+.pagination {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.pagination a {
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+}
